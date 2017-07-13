@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+</head>
+<body>
+<h1>Register</h1>
+
+<form>
+<label for="firstname">First Name:</label>
+	<input id="firstname" name="Firstname" placeholder="John" required>
+
+	<label for="lastname">Last Name:</label>
+	<input id="lastname" name="Lastname" placeholder="Smith" required>
+
+	<div>
+	<label for="male">Male </label>
+ 		<input name="gender" id="male" type="radio" value="Male">
+
+	<label for="female">Female </label>
+		<input name="gender" id="female" type="radio" value="Female">
+		<label for="others">Others </label>
+	<input name="gender" id="others" type="radio" value="Others">
+	</div>
+
+	<div>
+     <label for="email">Email: </label>
+		<input name="Email" id="email" type="email" placeholder="your email" required>
+
+		<label for="password">Password: </label>
+		<input name="Password" id="password" type="password" required>
+		</div>
+
+		<div>
+	    <label for="birthday">Birthday: </label>
+		<select name="Month">
+		<option>Month</option>
+		<option>January</option>
+		<option>February</option>
+		<option>March</option>
+		<option>April</option>
+		<option>May</option>
+		<option>June</option>
+
+		</select>
+
+		<select name="Day">
+		<option>Day</option>
+		<option>Monday</option>
+		<option>Tuesday</option>
+		<option>Wednesday</option>
+		<option>Thursday</option>
+		<option>Friday</option>
+		<option>Saturday</option>
+		<option>Sunday</option>
+		</select>
+
+		<select name="Year">
+        <option>Year</option>
+		<option>1989</option>
+		<option>1990</option>
+		<option>1991</option>
+		<option>1992</option>
+		<option>1993</option>
+		<option>1994</option>
+		</select>
+		</div>
+
+		<div>
+		<label for="agreed">I agree to the terms and conditions</label>
+		<input id="agreed" type="checkbox">
+		</div>
+		<input type="submit">
+
+
+
+</body>
+</html>
